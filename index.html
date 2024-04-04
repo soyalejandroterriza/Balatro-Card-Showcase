@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balatro Card Showcase</title>
+  <link rel="icon" type="image/x-icon" href="/resources/Other_pictures/favicon.png">
+  <div><!-- Background stuff -->
+    <script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js"></script>
+    <script type="x-shader/x-fragment" id="image">
+    precision mediump float;
+    #define SPIN_EASE 0.2
+    #define spin_time 5.
+    #define spin_amount 0.5
+    #define contrast 1.
+
+    
+    
+    
+    
+    #define colour_1 vec4(0.131, 0.258, 0.203, 0)
+    #define colour_2 vec4(0.088, 0.184, 0.141, 0)
+    #define colour_3 vec4(0,0,0,0)
+
+    uniform vec2 iResolution;
+    uniform float iTime;
+
+    void main( )
+    {
+      // uncomment to enable pixelated bg
+      // float pixel_size = length(iResolution.xy)/PIXEL_SIZE_FAC;
+      float pixel_size = 1.0;
+      vec2 uv = (floor(gl_FragCoord.xy*(1./pixel_size))*pixel_size - 0.5*iResolution.xy)/length(iResolution.xy) - vec2(0.12, 0.);
+      
+      float uv_len = length(uv);
+      
+      float speed = (spin_time*SPIN_EASE*0.2) + 302.2;
+      float new_pixel_angle = (atan(uv.y, uv.x)) + speed - SPIN_EASE*20.*(1.*spin_amount*uv_len + (1. - 1.*spin_amount));
+      
+      vec2 mid = vec2(0.5, 0.5);
+      uv = (vec2((uv_len * cos(new_pixel_angle) + mid.x), (uv_len * sin(new_pixel_angle) + mid.y)) - mid);
+      
+      uv *= 30.;
+      speed = iTime*(5.);
+      vec2 uv2 = vec2(uv.x+uv.y);
+
+      for(int i=0; i < 5; i++) {
+        uv2 += sin(max(uv.x, uv.y)) + uv;
+        uv  += 0.5*vec2(cos(5.1123314 + 0.353*uv2.y + speed*0.131121),sin(uv2.x - 0.113*speed));
+        uv  -= 1.0*cos(uv.x + uv.y) - 1.0*sin(uv.x*0.711 - uv.y);
+      }
+      
+      float contrast_mod = (0.25*contrast + 0.5*spin_amount + 1.2);
+      float paint_res =min(2., max(0.,length(uv)*(0.035)*contrast_mod));
+      float c1p = max(0.,1. - contrast_mod*abs(1.-paint_res));
+      float c2p = max(0.,1. - contrast_mod*abs(paint_res));
+      float c3p = 1. - min(1., c1p + c2p);
+
+      // Output to screen
+      gl_FragColor = (0.3/contrast)*colour_1 + (1. - 0.3/contrast)*(colour_1*c1p + colour_2*c2p + vec4(c3p*colour_3.rgb, c3p*colour_1.a));
+    }
+  </script>
+    <script>
+      let t = 0;
+      requestAnimationFrame(function update() {
+        t += 1 / 120;
+        requestAnimationFrame(update);
+      });
+      shaderWebBackground.shade({
+        shaders: {
+          image: {
+            uniforms: {
+              iResolution: (gl, loc, ctx) => gl.uniform2f(loc, ctx.width, ctx.height),
+              iTime: (gl, loc, ctx) => gl.uniform1f(loc, t)
+            }
+          }
+        }
+      });</script>
+  </div>
+</head>
+
+<body>
+  <!--
+  <div id="PRUEBASDEMIERDA">
+    <hr>
+    <input id="search_input_test" placeholder="gg_yy_jj_qq_pp" autocomplete="off" class="search_input_test" type="text">
+
+  </div>
+  -->
+  
+  <nav class="navMenu"> <!-- Navigation menu -->
+
+    <div class="title_cont"><span class="pageTitle">Balatro Jokers</span></div> <!-- Page title container-->
+    <div class="showInfo_cont"><button id="showInfoButton">Show info</button></div> <!-- Show info container -->
+    <div class="page_cont"> <!-- Page container-->
+      <button id="previousPageButton" class="previousPageButton" disabled>&lt;</button>
+      <div id="pageDiv" class="pageIndicator">Page 1/10</div>
+      <button id="nextPageButton" class="nextPageButton" disabled>&gt;</button>
+    </div>
+
+
+    <div class="search_cont">
+      <div class="search_field">
+        <input id="search_input" placeholder="Find a card" autocomplete="off" class="search_input">
+      </div>
+
+      <div class="suggestions"> <!-- Será llenado de sugerencias de búsqueda.-->
+      </div>
+
+    </div>
+
+
+  </nav>
+
+
+  <div class="top_separator">
+    <hr> <!-- Top separator -->
+  </div>
+
+
+  <div class="card_container"> <!-- Card container (Gallery + inspector) -->
+    <div id="card_gallery" class="card_gallery"> <!-- Card gallery -->
+      <table id="card_gallery_table">
+      </table>
+    </div>
+
+    <!-- Card inspector -->
+    <div id="card_inspector" class="card_inspector" data-tilt data-tilt-reverse="true" data-tilt-scale="1.05">
+
+      <div id="inspectorTitle" class="inspectorTitle">CARD INSPECTOR</div> <!-- Inspector Title -->
+      <div class="inspectorPicture_cont"><img id="inspectorPicture" class="inspectorPicture" data-tilt-reverse="true"
+          data-tilt-scale="1.2"></div> <!-- Inspector Image-->
+      <div class="inspectorName" id="inspectorName"></div> <!-- Inspector Name-->
+      <div class="rarity" id="inspectorRarity"></div> <!-- Inspector Rarity-->
+      <div class="inspectorEffect" id="inspectorEffect">You can inspect a card by clicking into its image.</div>
+      <!-- Inspector Effect-->
+
+      <div class="number_and_cost">
+        <span class="inspectorNumber" id="inspectorNumber"></span> <!-- Number -->
+        <span class="number_cost_spacer"></span>
+        <span class="inspectorCost" id="inspectorCost"></span> <!-- Cost -->
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="bottom_separator">
+    <hr> <!-- Bottom separator-->
+  </div>
+
+
+  <div class="credits"> <!-- Credits -->
+    <p>TERRIZA 2024</p>
+    <p>Tilting by Șandor "micku7zu" | Images from the balatro Wiki. | Font by Localthunk in Fontstruct | Background by
+      Kazik "Xemantic"</p>
+  </div>
+
+
+  <div id="cardInspectionDiv" class="cover" disabled> <!-- Card zoom -->
+    <img id="cardZoomImg" class="zoomedCard" data-tilt data-tilt-reverse="true"
+      src="BCS_resources/Card_pictures/Null_Joker.webp">
+    <div id="info" class="info" data-tilt data-tilt-reverse="true" data-tilt-max="1" data-tilt-speed="100"
+      data-tilt-glare="true">
+      <h1>Balatro card showcase</h1>
+      <p>This is a small free-to-use template for Balatro moddders to have a way to display the cards on GitHub, on
+        their website, directly in the mod downloadable files or wherever they want.
+        Feel free to use and modify this template to your liking.</p>
+      <p>Meanwhile, my implementation of the template shows the original 150 jokers included in the game. Visit my
+        Github page for instructions on how to modify the template and display your cards. Also to see my other projects
+        :&#41;.</p>
+      <p><a href="https://github.com/soyalejandroterriza/Balatro-Jokers" target="_blank">Get this template for free in
+          this link</a></p>
+    </div>
+  </div>
+
+</body>
+<!-- Indian autocomplete -->
+<script type="text/javascript" src="BCS_resources/Code/autocomplete.js"></script>
+
+<!-- My JS -->
+<script type="text/javascript" src="/BCS_resources/Code/cardManager.js"></script>
+
+<!-- My CSS -->
+<link rel="stylesheet" href="/BCS_resources/Code/style.css">
+<link rel="stylesheet" href="/BCS_resources/Code/style_mq.css">
+
+</html>

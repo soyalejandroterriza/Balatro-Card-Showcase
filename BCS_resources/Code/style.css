@@ -1,0 +1,320 @@
+/* ////////////////////// GENERAL ////////////////////// */
+
+@font-face {
+    
+    font-family: 'Balatro';
+    src: url("../Fonts/balatro.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Balatro";
+}
+.credits{
+    text-align: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: darkgray;
+}
+.top_separator{
+    margin-bottom: 7vh;
+}
+.bottom_separator {
+    margin-top: 7vh;
+}
+
+/* ////////////////////// NAV MENU ////////////////////// */
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.3rem;
+}
+.page_cont {
+    display: flex;
+    align-items: center;
+    margin: 0.3rem;
+}
+.pageIndicator{
+    font-size: 1.8rem;
+    white-space: nowrap;
+}
+.nextPageButton, .previousPageButton {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+}
+.title_cont {
+    font-size: 2rem;
+    margin: 0.3rem;
+}
+.findCard_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showInfoButton {
+    font-family: "Balatro";
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    white-space: nowrap;
+}
+#showInfoButton:hover{
+    font-size: 1.7rem;
+}
+.result_field ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result_field ul li{
+    list-style: none;
+    border-radius: 3;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+/* ////////////////////// CARD GALLERY ////////////////////// */
+.card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardInGallery:hover {
+    position: relative;
+    z-index: 3000;
+}
+
+/* ////////////////////// ZOOM ////////////////////// */
+.cover {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+.zoomedCard {
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    position: center;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.8rem;
+    color: black;
+    
+    font-size: 1.3rem;
+    width: 80%;
+    padding: 0.8rem;
+}
+
+/* ////////////////////// CARD INSPECTOR ////////////////////// */
+.card_inspector {
+           background-color: rgba(0, 0, 0, 0.3);
+           border-radius: 20px;
+           line-height: 1.2;
+           letter-spacing: 0.15rem;
+
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+           text-align: center;        
+           flex-direction: column;
+           padding: 0.5rem;
+}
+.inspectorTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.inspectorName{
+    margin-bottom: 0.5rem;
+}
+.inspectorRarity{
+    margin-bottom: 0.5rem;
+
+    padding: 0.3rem 3rem; 
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+}
+.inspectorEffect{
+    margin-bottom: 0.5rem;
+}
+.inspectorEffect p{
+    font-size: 0.8rem;
+}
+.inspectorNumber {
+    color: gray;
+}
+.inspectorCost {
+    color: gold;
+}
+.inspectorPicture_cont {
+    margin-bottom: 7px;
+    /* Mantiene la foto estirada */
+    width: 80%;
+}
+.cardInspectionImg { /* Zoom */
+    display: flex;
+    min-width: 79%;
+    max-width: 80%;
+    object-fit: contain;
+}
+.inspectorPicture {    
+    /*height: 80vh;*/
+    object-fit: contain;
+    /*height: auto;*/
+
+    /* De alguna manera está permitiendo que la foto se estire al reducir el espacio lateral*/
+    width: 80%;
+    max-width: 80%;
+
+    /* Esto permite que escale verticalmente al estrechar verticalmetne la página */
+    height: 100%;
+    max-height: 40vh;
+}
+.clickToZoomLetter {
+    font-size: 0.7rem;
+    color: gray;
+    line-height: 0em;
+}
+
+/* ////////////////////// RARITIES ////////////////////// */
+
+.common {
+    background-color: blue;
+}
+.uncommon {
+    background-color: green;
+}
+.rare {
+    background-color: red;
+}
+.legendary {
+    background-color: purple;
+}
+
+/* ////////////////////// TEXT-SPANS ////////////////////// */
+.diamondsText {
+    color: #df8300;
+}
+.spadesText {
+    color: #273a3e;
+}
+.spectralText {
+    color: #2e76fd;
+}
+.heartsText {
+    color: #df0e00;
+}
+.clubsText {
+    color: #007ee1;
+}
+.multText {
+    color: #ff4c40;
+}
+.chipsText {
+    color: #0093ff;
+}
+.moneyText {
+    color: #f5b244;
+}
+.handText {
+    color: #0093ff;
+}
+.planetText {
+    color: #00a7ca;
+}
+.tarotText {
+    color: #9e74ce;
+}
+
+/* ////////////////////// FIND CARD ////////////////////// */
+.search_cont{
+    background-color: white;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+.search_field{
+    display: flex;
+    align-items: center;
+    padding: 0.1rem 0.1rem;
+    
+}
+.search_input {
+    font-family: "Balatro";
+    font-size: 1rem;
+    text-align: center;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+}
+.suggestions {
+    z-index: 999999999;
+    margin-top: 0.2rem;
+    border-radius: inherit;
+    background-color: inherit;
+    width: inherit;
+    max-height: 25rem;
+    overflow-y: hidden;
+    position: absolute;
+}
+.suggestions ul{
+    color: black;
+    padding: 0.15rem 0.10rem;
+    margin-top: 0px; /* Fixes a margin issue */
+    margin-bottom: 0px;
+}
+.suggestions ul li{
+    list-style: none;
+    text-align: center;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.suggestions ul li:hover{
+    background-color: rgb(141, 141, 141);
+}
+
+
+.search_input_test {
+    background-color: #b4b6ff;
+    font-family: "Balatro";
+    font-size: 3rem;
+    text-align: center;
+    
+    height: 10rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1511 @@
+[
+    {
+        "number": 0,
+        "displayName": "Empty space",
+        "rarity": "",
+        "effect": "Dont modify this card, its an empty space when all cards have been loaded. This card cannot be loaded in the inspector.",
+        "picture": "No_Joker.webp",
+        "cost": "",
+        "unlockRequirement": ""
+    },
+
+    {
+        "number": 1,
+        "displayName": "Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+4 Mult</span>",
+        "picture": "Joker.webp",
+        "cost": "$2",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 2,
+        "displayName": "Greedy Joker",
+        "rarity": "Common",
+        "effect": "Played cards with <span class=diamondsText>Diamond</span> suit give <span class=multText> +4 Mult</span> when scored.",
+        "picture": "Greedy_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+    
+    {
+        "number": 3,
+        "displayName": "Lusty Joker",
+        "rarity": "Common",
+        "effect": "Played cards with <span class=heartsText>Heart</span> suit give <span class=multText>+4 Mult</span> when scored.",
+        "picture": "Lusty_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 4,
+        "displayName": "Wrathful Joker",
+        "rarity": "Common",
+        "effect": "Played cards with <span class=spadesText>Spade</span> suit give <span class=multText>+4 Mult</span> when scored.",
+        "picture": "Wrathful_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 5,
+        "displayName": "Gluttonous",
+        "rarity": "Common",
+        "effect": "Played cards with <span class=clubsText>Club</span> suit give <span class=multText>+4 Mult</span> when scored.",
+        "picture": "Gluttonous_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 6,
+        "displayName": "Jolly Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+8 Mult</span> if played hand contains a <span class=handText>Pair</span>.",
+        "picture": "Jolly_Joker.webp",
+        "cost": "$3",
+        "unlockRequirement": "Available from start"
+    },
+    
+    {
+        "number": 7,
+        "displayName": "Zany Joker",
+        "rarity": "Common", 
+        "effect": "<span class=multText>+12 Mult</span> if played hand contains a <span class=handText>Three of a Kind</span>",
+        "picture": "Zany_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 8,
+        "displayName": "Mad Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+20 Mult</span> if played hand contains a <span class=handText>Four of a Kind</span>",
+        "picture": "Mad_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 9,
+        "displayName": "Crazy Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+12 Mult</span> if played hand contains a <span class=handText>Straight</span>",
+        "picture": "Crazy_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 10,
+        "displayName": "Droll Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+10 Mult</span> if the played hand contains a <span class=handText>Flush</span>",
+        "picture": "Droll_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 11,
+        "displayName": "Sly Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+50 Chips</span> if played hand contains a <span class=handText>Pair</span>",
+        "picture": "Sly_Joker.webp",
+        "cost": "$3",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 12,
+        "displayName": "Wily Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+100 Chips</span> if played hand contains a <span class=handText>Three of a Kind</span>",
+        "picture": "Wily_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 13,
+        "displayName": "Clever Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+150 Chips</span> if played hand contains a <span class=handText>Four of a Kind</span>",
+        "picture": "Clever_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 14,
+        "displayName": "Devious Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+100 Chips</span> if played hand contains a <span class=handText>Straight</span>",
+        "picture": "Devious_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 15,
+        "displayName": "Crafty Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+80 Chips</span> if played hand contains a <span class=handText>Flush</span>",
+        "picture": "Crafty_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 16,
+        "displayName": "Half Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+20 Mult</span> if played hand contains 3 or fewer cards",
+        "picture": "Half_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 17,
+        "displayName": "Joker Stencil",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>X1 Mult</span> for each empty Joker slot (Joker Stencil included)",
+        "picture": "Joker_Stencil.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 18,
+        "displayName": "Four Fingers",
+        "rarity": "Uncommon",
+        "effect": "All <span class=handText>Flushes</span> and <span class=handText>Straights</span> can be made with 4 cards",
+        "picture": "Four_Fingers.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 19,
+        "displayName": "Mime",
+        "rarity": "Uncommon",
+        "effect": "Retrigger all card 'held in hand' abilities",
+        "picture": "Mime.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 20,
+        "displayName": "Credit Card",
+        "rarity": "Common",
+        "effect": "Go up to <span class=moneyText>-$20</span> in debt",
+        "picture": "Credit_Card.webp",
+        "cost": "$1",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 21,
+        "displayName": "Ceremonial Dagger",
+        "rarity": "Uncommon",
+        "effect": "When Blind is selected, destroy Joker to the right and permanently add double its sell value to this <span class=multText>Mult</span>",
+        "picture": "Ceremonial_Dagger.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 22,
+        "displayName": "Banner",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+40 Chips</span> for every remaining Discard",
+        "picture": "Banner.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 23,
+        "displayName": "Mystic Summit",
+        "rarity": "Common",
+        "effect": "<span class=multText>+15 Mult</span> when 0 Discards remaining",
+        "picture": "Mystic_Summit.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 24,
+        "displayName": "Marble Joker",
+        "rarity": "Uncommon",
+        "effect": "Adds one Stone card to the deck when Blind is selected",
+        "picture": "Marble_Joker.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 25,
+        "displayName": "Loyalty Card",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>x4 Mult</span> every 6 hands played (only applies on every 6th hand played)",
+        "picture": "Loyalty_Card.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 26,
+        "displayName": "8 Ball",
+        "rarity": "Common",
+        "effect": "Creates a <span class=planetText>Planet</span> card when the played hand holds at least two 8s",
+        "picture": "8_Ball.webp",
+        "cost": "5$",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 27,
+        "displayName": "Misprint",
+        "rarity": "Common",
+        "effect": "Adds a random <span class=multText>Mult</span> between 0 and 23 inclusive",
+        "picture": "Misprint.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 28,
+        "displayName": "Dusk",
+        "rarity": "Uncommon",
+        "effect": "Retrigger all played cards in final hand of round",
+        "picture": "Dusk.webp",
+        "cost": "5$",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 29,
+        "displayName": "Raised Fist",
+        "rarity": "Common",
+        "effect": "Adds double the rank of lowest card held in hand to <span class=multText>Mult</span>",
+        "picture": "Raised_Fist.webp",
+        "cost": "5$",
+        "unlockRequirement": "Available from start"
+      },
+
+      {
+        "number": 30,
+        "displayName": "Chaos the Clown",
+        "picture": "Chaos_the_Clown.webp",
+        "cost": "4$",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "1 free reroll per shop"
+    },
+    
+    {
+        "number": 31,
+        "displayName": "Fibonacci",
+        "picture": "Fibonacci.webp",
+        "cost": "$7",
+        "rarity": "Uncommon",
+        "unlockRequirement": "Available from start",
+        "effect": "Each played Ace, 2, 3, 5, and 8 gives <span class=multText>+8 Mult</span> when scored"
+    },
+
+    {
+        "number": 32,
+        "displayName": "Steel Joker",
+        "picture": "Steel_Joker.webp",
+        "cost": "$7",
+        "rarity": "Uncommon",
+        "unlockRequirement": "Available from start",
+        "effect": "This Joker gains <span class=multText>X0.25 Mult</span> for each Steel Card in your full deck"
+    },
+
+    {
+        "number": 33,
+        "displayName": "Scary Face",
+        "picture": "Scary_Face.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Played face cards give <span class=chipsText>+30 Chips</span> when scored"
+    },
+
+    {
+        "number": 34,
+        "displayName": "Abstract Joker",
+        "picture": "Abstract_Joker.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "<span class=multText>+3 Mult</span> for each Joker card"
+    },
+
+    {
+        "number": 35,
+        "displayName": "Delayed Gratification",
+        "picture": "Delayed_Gratification.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Earn <span class=moneyText>$2</span> per discard if no discards are used by end of the round"
+    },
+
+    {
+        "number": 36,
+        "displayName": "Hack",
+        "picture": "Hack.webp",
+        "cost": "$6",
+        "rarity": "Uncommon",
+        "unlockRequirement": "Available from start",
+        "effect": "Retriggers each played 2, 3, 4, and 5"
+    },
+
+    {
+        "number": 37,
+        "displayName": "Pareidolia",
+        "picture": "Pareidolia.webp",
+        "cost": "$5",
+        "rarity": "Uncommon",
+        "unlockRequirement": "Available from start",
+        "effect": "All cards are considered face cards\nNote: They keep their normal ranks and scoring values"
+    },
+
+    {
+        "number": 38,
+        "displayName": "Gros Michel",
+        "picture": "Gros_Michel.webp",
+        "cost": "$5",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "<span class=multText>+15 Mult</span>, but 1 in 4 chance this card is destroyed at the end of each round"
+    },
+
+    {
+        "number": 39,
+        "displayName": "Even Steven",
+        "picture": "Even_Steven.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Played cards with even rank give <span class=multText>+4 Mult</span> when scored\nNote: Even ranks are 2, 4, 6, 8 and 10."
+    },
+
+    {
+        "number": 40,
+        "displayName": "Odd Todd",
+        "picture": "Odd_Todd.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Played cards with odd rank give <span class=chipsText>+30 Chips</span> when scored\nNote: Odd ranks are Ace, 3, 5, 7 and 9."
+    },
+
+    {
+        "number": 41,
+        "displayName": "Scholar",
+        "picture": "Scholar.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Played Aces give +20 Chips and <span class=multText>+4 Mult</span> when scored"
+    },
+
+    {
+        "number": 42,
+        "displayName": "Business Card",
+        "picture": "Business_Card.webp",
+        "cost": "$4",
+        "rarity": "Common",
+        "unlockRequirement": "Available from start",
+        "effect": "Played face cards have a 1 in 2 chance to give <span class=moneyText>$2</span> when scored"
+    },
+
+    {
+        "number": 43,
+        "displayName": "Supernova",
+        "rarity": "Common",
+        "effect": "Adds the number of times <span class=handText>poker hand</span> has been played to <span class=multText>Mult</span>",
+        "picture": "Supernova.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 44,
+        "displayName": "Ride the Bus",
+        "rarity": "Common",
+        "effect": "<span class=multText>+1 Mult</span> for every hand played without a scoring face card, starts at and resets to 0 when a face card is scored",
+        "picture": "Ride_the_Bus.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 45,
+        "displayName": "Space Joker",
+        "rarity": "Uncommon",
+        "effect": "1 in 4 chance to upgrade the level of played <span class=handText>poker hand</span>, before it's scored",
+        "picture": "Space_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 46,
+        "displayName": "Egg",
+        "rarity": "Common",
+        "effect": "Gains <span class=moneyText>$3</span> of sell value at end of round",
+        "picture": "Egg.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 47,
+        "displayName": "Burglar",
+        "rarity": "Uncommon",
+        "effect": "When Blind is selected, gain +3 Hands and lose all discards",
+        "picture": "Burglar.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 48,
+        "displayName": "Blackboard",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>x3 Mult</span> if all cards held in hand are <span class=spadesText>Spades</span> or <span class=clubsText>Clubs</span>",
+        "picture": "Blackboard.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 49,
+        "displayName": "Runner",
+        "rarity": "Common",
+        "effect": "Gains <span class=chipsText>+10 Chips</span> if played hand contains a <span class=handText>Straight</span>",
+        "picture": "Runner.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 50,
+        "displayName": "Ice Cream",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+100 Chips. -5 Chips</span> for every hand played",
+        "picture": "Ice_Cream.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 51,
+        "displayName": "DNA",
+        "rarity": "Rare",
+        "effect": "If first hand of round has only 1 card, add a permanent copy to deck and draw it to hand",
+        "picture": "DNA.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 52,
+        "displayName": "Splash",
+        "rarity": "Common",
+        "effect": "Every played card counts in scoring",
+        "picture": "Splash.webp",
+        "cost": "$3",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 53,
+        "displayName": "Blue Joker",
+        "rarity": "Common",
+        "effect": "<span class=chipsText>+2 Chips</span> for each remaining card in your deck",
+        "picture": "Blue_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 54,
+        "displayName": "Sixth Sense",
+        "rarity": "Rare",
+        "effect": "If first hand of round is a single 6, destroy it and create a <span class=spectralText>Spectral card</span>.",
+        "picture": "Sixth_Sense.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 55,
+        "displayName": "Constellation",
+        "rarity": "Uncommon",
+        "effect": "Gains <span class=multiText>x0.1 Mult</span> per <span class=planetText>Planet card</span> used",
+        "picture": "Constellation.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 56,
+        "displayName": "Hiker",
+        "rarity": "Uncommon",
+        "effect": "Every played card permanently gains <span class=chipsText>+4 Chips</span> when scored",
+        "picture": "Hiker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 57,
+        "displayName": "Faceless Joker",
+        "rarity": "Common",
+        "effect": "Earn <span class=moneyText>$5</span> if 3 or more face cards are discarded at the same time",
+        "picture": "Faceless_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 58,
+        "displayName": "Green Joker",
+        "rarity": "Common",
+        "effect": "<span class=multText>+1 Mult</span> per hand played, <span class=multText>-1 Mult</span> per discard",
+        "picture": "Green_Joker.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 59,
+        "displayName": "Superposition",
+        "rarity": "Common",
+        "effect": "Create a <span class=tarotText>Tarot Card</span> if poker hand contains an Ace and a <span class=handText>Straight</span>",
+        "picture": "Superposition.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 60,
+        "displayName": "To Do List",
+        "rarity": "Common",
+        "effect": "Earn <span class=moneyText>$5</span> if poker hand is a specific poker hand, poker hand changes on every payout",
+        "picture": "To_Do_List.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 61,
+        "displayName": "Cavendish",
+        "rarity": "Common",
+        "effect": "<span class=multText>+3 Mult</span>, but 1 in 1000 chance this card is destroyed at the end of round",
+        "picture": "Cavendish.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start, but only appears in shops if Gros_Michel was destroyed by its 1 in 4 effect during the same run"
+    },
+
+    {
+        "number": 62,
+        "displayName": "Card Sharp",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>+3 Mult</span> if played <span class=handText>poker hand</span> has already been played this round",
+        "picture": "Card_Sharp.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 63,
+        "displayName": "Red Card",
+        "rarity": "Common",
+        "effect": "Starting at <span class=multiText>+0 Mult</span>, gains <span class=multText>+3 Mult</span> when any Booster pack is skipped",
+        "picture": "Red_Card.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 64,
+        "displayName": "Madness",
+        "rarity": "Uncommon",
+        "effect": "When Blind is selected, gain <span class=multText>X0.5 Mult</span> and destroy a random Joker",
+        "picture": "Madness.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 65,
+        "displayName": "Square_Joker",
+        "rarity": "Common",
+        "effect": "Gains <span class=chipsText>+4 Chips</span> if played hand contains exactly four cards",
+        "picture": "Square_Joker.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+    
+    {
+        "number": 66,
+        "displayName": "Séance",
+        "rarity": "Rare",
+        "effect": "If poker hand is a <span class=handText>Straight Flush</span>, create a random <span class=spectralText>Spectral card</span>",
+        "picture": "Séance.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 67,
+        "displayName": "Riff-Raff",
+        "rarity": "Common",
+        "effect": "When Blind is selected, create up to 2 Common Jokers",
+        "picture": "Riff-Raff.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 68,
+        "displayName": "Vampire",
+        "rarity": "Uncommon",
+        "effect": "Gains <span class=multText>X0.2 Mult</span> per Enhanced card played, removes the Enhancement",
+        "picture": "Vampire.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 69,
+        "displayName": "Shortcut",
+        "rarity": "Uncommon",
+        "effect": "Allows <span class=handText>Straights</span> to be made with one or more gaps of 1 rank (ex: 2 3 5 7 8)",
+        "picture": "Shortcut.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 70,
+        "displayName": "Hologram",
+        "rarity": "Uncommon",
+        "effect": "Gains <span class=multText>X0.25 Mult</span> per playing card added to your deck, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Hologram.webp",
+        "cost": "$7",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 71,
+        "displayName": "Vagabond",
+        "rarity": "Uncommon",
+        "effect": "Create a <span class=tarotText>Tarot card</span> if hand is played with <span class=moneyText>$3</span> or less",
+        "picture": "Vagabond.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 72,
+        "displayName": "Baron",
+        "rarity": "Rare",
+        "effect": "Each King held in hand gives <span class=multText>X1.5 Mult</span>",
+        "picture": "Baron.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 73,
+        "displayName": "Cloud 9",
+        "rarity": "Uncommon",
+        "effect": "Earn <span class=moneyText>$1</span> for each 9 in your complete deck at end of round",
+        "picture": "Cloud_9.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 74,
+        "displayName": "Rocket",
+        "rarity": "Uncommon",
+        "effect": "Earn <span class=moneyText>$1</span> at the end of round. Earning increases by <span class=moneyText>$2</span> when Boss Blind is defeated",
+        "picture": "Rocket.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 75,
+        "displayName": "Obelisk",
+        "rarity": "Rare",
+        "effect": "<span class=multText>X0.2 Mult</span> per consecutive hand played without playing one of your most played <span class=handText>poker hands</span>, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Obelisk.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 76,
+        "displayName": "Midas Mask",
+        "rarity": "Uncommon",
+        "effect": "All face cards become Gold cards when played",
+        "picture": "Midas_Mask.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 77,
+        "displayName": "Luchador",
+        "rarity": "Uncommon",
+        "effect": "Sell this card during a Boss Blind to disable the effects of the current Boss Blind",
+        "picture": "Luchador.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 78,
+        "displayName": "Photograph",
+        "rarity": "Common",
+        "effect": "First played face card gives <span class=multText>X2 Mult</span> when scored",
+        "picture": "Photograph.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 79,
+        "displayName": "Gift Card",
+        "rarity": "Uncommon",
+        "effect": "Adds <span class=moneyText>$1</span> to the sell value of every Joker and Consumable card at the end of round",
+        "picture": "Gift_Card.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 80,
+        "displayName": "Turtle Bean",
+        "rarity": "Uncommon",
+        "effect": "+5 hand size, reduces by 1 each round",
+        "picture": "Turtle_Bean.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 81,
+        "displayName": "Erosion",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>+4 Mult</span> for every card less than your starting deck amount in your complete deck",
+        "picture": "Erosion.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 82,
+        "displayName": "Reserved Parking",
+        "rarity": "Uncommon",
+        "effect": "Each face card held in hand has a 1 in 2 chance to give <span class=moneyText>$1</span>",
+        "picture": "Reserved_Parking.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 83,
+        "displayName": "Mail-In Rebate",
+        "rarity": "Common",
+        "effect": "Earn <span class=moneyText>$3</span> for each discarded card of a random rank, rank changes every round",
+        "picture": "Mail-In_Rebate.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 84,
+        "displayName": "To the Moon",
+        "rarity": "Uncommon",
+        "effect": "Earn an extra <span class=moneyText>$1</span> of interest for every <span class=moneyText>$5</span> you have at the end of round",
+        "picture": "To_the_Moon.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 85,
+        "displayName": "Hallucination",
+        "rarity": "Common",
+        "effect": "When any Booster Pack is opened, there is a 1 in 2 chance of creating a random <span class=tarotText>Tarot card</span>",
+        "picture": "Hallucination.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 86,
+        "displayName": "Fortune Teller",
+        "rarity": "Common",
+        "effect": "<span class=multText>+1 Mult</span> per <span class=tarotText>Tarot card</span> used this run",
+        "picture": "Fortune_Teller.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 87,
+        "displayName": "Juggler",
+        "rarity": "Common",
+        "effect": "+1 to your hand size",
+        "picture": "Juggler.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 88,
+        "displayName": "Drunkard",
+        "rarity": "Common",
+        "effect": "+1 discard",
+        "picture": "Drunkard.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 89,
+        "displayName": "Stone Joker",
+        "rarity": "Uncommon",
+        "effect": "This Joker gains <span class=chipsText>+25 Chips</span> for each Stone Card in your full deck",
+        "picture": "Stone_Joker.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 90,
+        "displayName": "Golden Joker",
+        "rarity": "Common",
+        "effect": "Earn <span class=moneyText>$4</span> at the end of each round",
+        "picture": "Golden_Joker.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 91,
+        "displayName": "Lucky Cat",
+        "rarity": "Uncommon",
+        "effect": "Gains <span class=multText>X0.2 Mult</span> each time a Lucky card successfully triggers, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Lucky_Cat.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+    
+    {
+        "number": 92,
+        "displayName": "Baseball Card",
+        "rarity": "Rare",
+        "effect": "Uncommon Jokers each give <span class=multText>X1.5 Mult</span>",
+        "picture": "Baseball_Card.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 93,
+        "displayName": "Bull",
+        "rarity": "Uncommon",
+        "effect": "<span class=chipsText>+2 Chips</span> for each <span class=moneyText>dollar</span> you have",
+        "picture": "Bull.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 94,
+        "displayName": "Diet Cola",
+        "rarity": "Uncommon",
+        "effect": "Sell this card to create a free Double Tag",
+        "picture": "Diet_Cola.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 95,
+        "displayName": "Trading Card",
+        "rarity": "Uncommon",
+        "effect": "If first discard of round has only 1 card, destroy it and earn <span class=moneyText>$3</span>",
+        "picture": "Trading_Card.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+    
+    {
+        "number": 96,
+        "displayName": "Flash Card",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>+2 Mult</span> per reroll in the shop",
+        "picture": "Flash_Card.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 97,
+        "displayName": "Popcorn",
+        "rarity": "Common",
+        "effect": "Starts at <span class=multText>+20 Mult</span>, but <span class=multText>-4 Mult</span> for each round played",
+        "picture": "Popcorn.webp",
+        "cost": "$5",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 98,
+        "displayName": "Spare Trousers",
+        "rarity": "Uncommon",
+        "effect": "Gains <span class=multText>+2 Mult</span> if a scoring hand contains a <span class=handText>Two Pair</span>, starts at <span class=multText>+0 Mult</span>",
+        "picture": "Spare_Trousers.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 99,
+        "displayName": "Ancient Joker",
+        "rarity": "Rare",
+        "effect": "<span class=multText>X1.5 Mult</span> for each card played of a specific suit, the suit changes at the end of each round",
+        "picture": "Ancient_Joker.webp",
+        "cost": "$8",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 100,
+        "displayName": "Ramen",
+        "rarity": "Uncommon",
+        "effect": "Gives <span class=multText>+2 Mult</span>, but loses <span class=multText>X0.01 Mult</span> per card discarded (for any reason)",
+        "picture": "Ramen.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 101,
+        "displayName": "Walkie Talkie",
+        "rarity": "Common",
+        "effect": "Each played 10 or 4 gives <span class=chipsText>+10 Chips</span> and <span class=multText>+4 Mult</span> when scored",
+        "picture": "Walkie_Talkie.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 102,
+        "displayName": "Seltzer",
+        "rarity": "Uncommon",
+        "effect": "Retrigger all cards played for the next 10 hands",
+        "picture": "Seltzer.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 103,
+        "displayName": "Castle",
+        "rarity": "Uncommon",
+        "effect": "This Joker gains <span class=chipsText>+3 Chips</span> per discarded card from a random Suit, the suit changes every round",
+        "picture": "Castle.webp",
+        "cost": "$6",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 104,
+        "displayName": "Smiley Face",
+        "rarity": "Common",
+        "effect": "Played face cards give <span class=multText>+4 Mult</span> when scored",
+        "picture": "Smiley_Face.webp",
+        "cost": "$4",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 105,
+        "displayName": "Campfire",
+        "rarity": "Rare",
+        "effect": "This Joker gains <span class=multText>X0.5 Mult</span> for each card sold, starts at and resets to <span class=multText>X1 Mult</span> when Boss Blind is defeated",
+        "picture": "Campfire.webp",
+        "cost": "$9",
+        "unlockRequirement": "Available from start"
+    },
+
+    {
+        "number": 106,
+        "displayName": "Golden Ticket",
+        "rarity": "Common",
+        "effect": "Played Gold cards earn <span class=moneyText>$3</span> when scored",
+        "picture": "Golden_Ticket.webp",
+        "cost": "$5",
+        "unlockRequirement": "Play a five card hand that contains only Gold cards"
+    },
+
+    {
+        "number": 107,
+        "displayName": "Mr. Bones",
+        "rarity": "Uncommon",
+        "effect": "Prevents Death if <span class=chipsText>Chips</span> scored are at least 25% of the value required to beat the blind. Self Destructs after it saves you",
+        "picture": "Mr._Bones.webp",
+        "cost": "$5",
+        "unlockRequirement": "Lose five runs"
+    },
+
+    {
+        "number": 108,
+        "displayName": "Acrobat",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>x3 Mult</span> on the final hand of the round",
+        "picture": "Acrobat.webp",
+        "cost": "$6",
+        "unlockRequirement": "Play 200 hands"
+    },
+
+    {
+        "number": 109,
+        "displayName": "Sock and Buskin",
+        "rarity": "Uncommon",
+        "effect": "Retriggers all face cards an additional time",
+        "picture": "Sock_and_Buskin.webp",
+        "cost": "$6",
+        "unlockRequirement": "Play 300 face cards (Jacks, Queens or Kings)"
+    },
+
+    {
+        "number": 110,
+        "displayName": "Swashbuckler",
+        "rarity": "Common",
+        "effect": "Adds the sell value of all owned Jokers left of this card to <span class=multText>Mult</span>",
+        "picture": "Swashbuckler.webp",
+        "cost": "$4",
+        "unlockRequirement": "Sell 20 Joker cards"
+    },
+
+    {
+        "number": 111,
+        "displayName": "Troubadour",
+        "rarity": "Uncommon",
+        "effect": "+2 hand size, -1 hands per round",
+        "picture": "Troubadour.webp",
+        "cost": "$6",
+        "unlockRequirement": "Win 5 consecutive rounds by playing only a single hand in each (discards are fine)"
+    },
+
+    {
+        "number": 112,
+        "displayName": "Certificate",
+        "rarity": "Uncommon",
+        "effect": "When round begins, add a random playing card with a random seal to your hand",
+        "picture": "Certificate.webp",
+        "cost": "$6",
+        "unlockRequirement": "Have a Gold Card that also has a Gold Seal"
+    },
+
+    {
+        "number": 113,
+        "displayName": "Smeared Joker",
+        "rarity": "Uncommon",
+        "effect": "<span class=heartsText>Hearts</span> and <span class=diamondsText>Diamonds</span> count as the same suit, <span class=spadesText>Spades</span> and <span class=clubsText>Clubs</span> count as the same suit",
+        "picture": "Smeared_Joker.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have 3 or more Wild Cards in your deck"
+    },
+    
+    {
+        "number": 114,
+        "displayName": "Throwback",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>0.25X Mult</span> for each Blind skipped this run, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Throwback.webp",
+        "cost": "$6",
+        "unlockRequirement": "Continue a Saved run from the main menu (save a run by pausing it then exiting to main menu)"
+    },
+
+    {
+        "number": 115,
+        "displayName": "Hanging Chad",
+        "rarity": "Common",
+        "effect": "Retrigger the first played card used in scoring",
+        "picture": "Hanging_Chad.webp",
+        "cost": "$4",
+        "unlockRequirement": "Beat a Boss Blind with a High Card hand"
+    },
+
+    {
+        "number": 116,
+        "displayName": "Rough Gem",
+        "rarity": "Uncommon",
+        "effect": "Played cards with <span class=diamondsText>Diamond</span> suit earn <span class=moneyText>$1</span> when scored",
+        "picture": "Rough_Gem.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have at least 30 Diamonds in your deck"
+    },
+
+    {
+        "number": 117,
+        "displayName": "Bloodstone",
+        "rarity": "Uncommon",
+        "effect": "1 in 3 chance for played cards with <span class=heartsText>Heart</span> suit to give <span class=multText>2 Mult</span> when scored",
+        "picture": "Bloodstone.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have at least 30 Hearts in your deck"
+    },
+
+    {
+        "number": 118,
+        "displayName": "Arrowhead",
+        "rarity": "Uncommon",
+        "effect": "Played cards with <span class=spadesText>Spade</span> suit give <span class=chipsText>+50 Chips</span> when scored",
+        "picture": "Arrowhead.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have at least 30 Spades in your deck"
+    },
+
+    {
+        "number": 119,
+        "displayName": "Onyx Agate",
+        "rarity": "Uncommon",
+        "effect": "Played cards with <span class=clubsText>Club</span> suit give <span class=multText>+8 Mult</span> when scored",
+        "picture": "Onyx_Agate.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have at least 30 Clubs in your deck"
+    },
+
+    {
+        "number": 120,
+        "displayName": "Glass Joker",
+        "rarity": "Uncommon",
+        "effect": "Gain <span class=multText>X0.5 Mult</span> for each Glass Card that is destroyed, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Glass_Joker.webp",
+        "cost": "$6",
+        "unlockRequirement": "Have 5 or more Glass Cards in your deck"
+    },
+
+    {
+        "number": 121,
+        "displayName": "Showman",
+        "rarity": "Uncommon",
+        "effect": "Joker, <span class=tarotText>Tarot</span>, <span class=planetText>Planet</span>, and <span class=spectralText>Spectral cards</span> may appear multiple times",
+        "picture": "Showman.webp",
+        "cost": "$5",
+        "unlockRequirement": "Reach Ante Level 4"
+    },
+
+    {
+        "number": 122,
+        "displayName": "Flower Pot",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>x3 Mult</span> if played hand has a scoring <span class=diamondsText>Diamond card</span>, <span class=clubsText>Club card</span>, <span class=heartsText>Heart card</span>, and <span class=spadesText>Spade card</span>.",
+        "picture": "Flower_Pot.webp",
+        "cost": "$6",
+        "unlockRequirement": "Reach Ante Level 8"
+    },
+
+    {
+        "number": 123,
+        "displayName": "Blueprint",
+        "rarity": "Rare",
+        "effect": "Copies ability of Joker to the right",
+        "picture": "Blueprint.webp",
+        "cost": "$10",
+        "unlockRequirement": "Win a run"
+    },
+
+    {
+        "number": 124,
+        "displayName": "Wee Joker",
+        "rarity": "Rare",
+        "effect": "This Joker gains <span class=chipsText>+8 Chips</span> when each played 2 is scored, starts at <span class=chipsText>+10 Chips</span>",
+        "picture": "Wee_Joker.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run in 18 or fewer rounds"
+    },
+
+    {
+        "number": 125,
+        "displayName": "Merry Andy",
+        "rarity": "Uncommon",
+        "effect": "+3 discards, -1 hand size",
+        "picture": "Merry_Andy.webp",
+        "cost": "$7",
+        "unlockRequirement": "Win a run in 12 or fewer rounds"
+    },
+
+    {
+        "number": 126,
+        "displayName": "Oops! All_6s",
+        "rarity": "Uncommon",
+        "effect": "Doubles all probabilities (ex: 1 in 3 -> 2 in 3)",
+        "picture": "Oops_All_6s.webp",
+        "cost": "$4",
+        "unlockRequirement": "Earn at least 10,000 Chips in a single hand"
+    },
+
+    {
+        "number": 127,
+        "displayName": "The Idol",
+        "rarity": "Uncommon",
+        "effect": "Each played [random, specific card] gives <span class=multText>X2 Mult</span> when scored. Card changes every round.",
+        "picture": "The_Idol.webp",
+        "cost": "$6",
+        "unlockRequirement": "Earn at least 1 million (1,000,000) Chips in a single hand"
+    },
+
+    {
+        "number": 128,
+        "displayName": "Seeing Double",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>X2 Mult</span> if played hand has a scoring <span class=clubsText>Club card</span> and a scoring card of any other suit",
+        "picture": "Seeing_Double.webp",
+        "cost": "$6",
+        "unlockRequirement": "Play a hand that contains four 7 of Clubs"
+    },
+
+    {
+        "number": 129,
+        "displayName": "Matador",
+        "rarity": "Uncommon",
+        "effect": "Earn <span class=moneyText>$8</span> if the played hand triggers the Boss Blind's ability",
+        "picture": "Matador.webp",
+        "cost": "$7",
+        "unlockRequirement": "Defeat a Boss Blind in one hand, without using discards"
+    },
+
+    {
+        "number": 130,
+        "displayName": "Hit the Road",
+        "rarity": "Rare",
+        "effect": "Gains <span class=multText>X0.5 Mult</span> for every Jack discarded this round",
+        "picture": "Hit_the_Road.webp",
+        "cost": "$8",
+        "unlockRequirement": "Discard five Jacks at the same time"
+    },
+
+    {
+        "number": 131,
+        "displayName": "The Duo",
+        "rarity": "Rare",
+        "effect": "<span class=multText>X2 Mult</span> when the hand contains a <span class=handText>Pair</span>",
+        "picture": "The_Duo.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run without playing a Pair"
+    },
+
+    {
+        "number": 132,
+        "displayName": "The Trio",
+        "rarity": "Rare",
+        "effect": "<span class=multText>x3 Mult</span> when the hand contains a <span class=handText>Three of a Kind</span>",
+        "picture": "The_Trio.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run without playing a Three of a Kind"
+    },
+
+    {
+        "number": 133,
+        "displayName": "The Family",
+        "rarity": "Rare",
+        "effect": "<span class=multText>x4 Mult</span> when the hand contains <span class=handText>Four of a Kind</span>",
+        "picture": "The_Family.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run without playing a Four of a Kind"
+    },
+
+    {
+        "number": 134,
+        "displayName": "The Order",
+        "rarity": "Rare",
+        "effect": "<span class=multText>x3 Mult</span> if played hand contains a <span class=handText>Straight</span>",
+        "picture": "The_Order.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run without playing a Straight"
+    },
+
+    {
+        "number": 135,
+        "displayName": "The Tribe",
+        "rarity": "Rare",
+        "effect": "<span class=multText>2x Mult</span> when the hand contains a <span class=handText>Flush</span>",
+        "picture": "The_Tribe.webp",
+        "cost": "$8",
+        "unlockRequirement": "Win a run without playing a Flush"
+    },
+
+    {
+        "number": 136,
+        "displayName": "Stuntman",
+        "rarity": "Uncommon",
+        "effect": "<span class=chipsText>+300 Chips</span>, -2 hand size",
+        "picture": "Stuntman.webp",
+        "cost": "$6",
+        "unlockRequirement": "Earn at least 100 million (100,000,000) Chips in a single hand"
+    },
+
+    {
+        "number": 137,
+        "displayName": "Invisible Joker",
+        "rarity": "Rare",
+        "effect": "After three rounds, sell this Joker to duplicate a random Joker\nNote: Removes Negative from the copy",
+        "picture": "Invisible_Joker.webp",
+        "cost": "$10",
+        "unlockRequirement": "Win a run without having more than 4 Jokers at any one time"
+    },
+
+    {
+        "number": 138,
+        "displayName": "Brainstorm",
+        "rarity": "Rare",
+        "effect": "Copies the ability of leftmost Joker",
+        "picture": "Brainstorm.webp",
+        "cost": "$10",
+        "unlockRequirement": "Discard a Royal Flush"
+    },
+
+    {
+        "number": 139,
+        "displayName": "Satellite",
+        "rarity": "Uncommon",
+        "effect": "Gain <span class=moneyText>$1</span> at the end of round for every unique <span class=planetsText>Planet Card</span> used this run",
+        "picture": "Satellite.webp",
+        "cost": "$6",
+        "unlockRequirement": "Have $400 or more"
+    },
+
+    {
+        "number": 140,
+        "displayName": "Shoot the Moon",
+        "rarity": "Common",
+        "effect": "<span class=multText>+13 Mult</span> for each Queen held in hand",
+        "picture": "Shoot_the_Moon.webp",
+        "cost": "$5",
+        "unlockRequirement": "Play every Heart card in your deck in one round"
+    },
+
+    {
+        "number": 141,
+        "displayName": "Drivers License",
+        "rarity": "Rare",
+        "effect": "<span class=multText>x3 Mult</span> if you have at least 16 enhanced cards",
+        "picture": "Driver's_License.webp",
+        "cost": "$7",
+        "unlockRequirement": "Enhance 16 or more cards in your deck"
+    },
+
+    {
+        "number": 142,
+        "displayName": "Cartomancer",
+        "rarity": "Uncommon",
+        "effect": "Create a <span class=tarotText>Tarot</span> whenever Blind is selected",
+        "picture": "Cartomancer.webp",
+        "cost": "$6",
+        "unlockRequirement": "Discover every Tarot card"
+    },
+
+    {
+        "number": 143,
+        "displayName": "Astronomer",
+        "rarity": "Uncommon",
+        "effect": "All <span class=planetText>Planet cards</span> and <span class=planetText>Celestial Packs</span> in the shop are free",
+        "picture": "Astronomer.webp",
+        "cost": "$8",
+        "unlockRequirement": "Discover every Planet card"
+    },
+
+    {
+        "number": 144,
+        "displayName": "Burnt Joker",
+        "rarity": "Uncommon",
+        "effect": "Upgrade the level of the first discarded <span class=handText>poker hand</span> each round",
+        "picture": "Burnt_Joker.webp",
+        "cost": "$6",
+        "unlockRequirement": "Sell 50 cards"
+    },
+
+    {
+        "number": 145,
+        "displayName": "Bootstraps",
+        "rarity": "Uncommon",
+        "effect": "<span class=multText>+2 Mult</span> for every <span class=moneyText>$5</span> you have",
+        "picture": "Bootstraps.webp",
+        "cost": "$7",
+        "unlockRequirement": "Have at least 2 Polychrome Jokers"
+    },
+
+    {
+        "number": 146,
+        "displayName": "Canio",
+        "rarity": "Legendary",
+        "effect": "Gains <span class=multText>X1 Mult</span> when a face card is destroyed, starts at <span class=multText>X1 Mult</span>",
+        "picture": "Canio.webp",
+        "cost": "Can't be bough.",
+        "unlockRequirement": "A chance when using the Soul spectral card"
+    },
+
+    {
+        "number": 147,
+        "displayName": "Triboulet",
+        "rarity": "Legendary",
+        "effect": "Played Kings and Queens each give <span class=multText>X2 Mult</span> when scored",
+        "picture": "Triboulet.webp",
+        "cost": "Can't be bough.",
+        "unlockRequirement": "A chance when using the Soul spectral card"
+    },
+
+    {
+        "number": 148,
+        "displayName": "Yorick",
+        "rarity": "Legendary",
+        "effect": "<span class=multText>x5 Mult</span>, but alas, only after using 23 discards",
+        "picture": "Yorick.webp",
+        "cost": "Can't be bough.",
+        "unlockRequirement": "A chance when using the Soul spectral card"
+    },
+
+    {
+        "number": 149,
+        "displayName": "Chicot",
+        "rarity": "Legendary",
+        "effect": "Disables effect of every Boss Blind",
+        "picture": "Chicot.webp",
+        "cost": "Can't be bough.",
+        "unlockRequirement": "A chance when using the Soul spectral card"
+    },
+    
+    {
+        "number": 150,
+        "displayName": "Perkeo",
+        "rarity": "Legendary",
+        "effect": "Create a Negative copy of 1 random Consumable card in your possession at the end of the shop",
+        "picture": "Perkeo.webp",
+        "cost": "Can't be bough.",
+        "unlockRequirement": "A chance when using the Soul spectral card"
+    }
+  ]

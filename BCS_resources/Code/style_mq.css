@@ -1,0 +1,84 @@
+/* /////////////////////// Gestor de tamaño de fuente /////////////////////// */
+
+/* Landscape font-size management */
+@media screen and (min-width: 500px) and (orientation: landscape){
+    :root {
+    font-size: 12px;
+    }
+}
+@media screen and (min-width: 1200px) and (orientation: landscape){
+    :root {
+        font-size: 15px;
+     }
+}
+@media screen and (min-width: 2000px) and (orientation: landscape){
+    :root {
+        font-size: 20px;
+     }
+}
+
+/* Portrait font-size management */
+@media screen and (orientation: portrait){
+    :root {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 500px) and (orientation: portrait){
+    :root {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px) and (orientation: portrait){
+    :root {
+        font-size: 27px;
+    }
+}
+
+  
+
+
+
+/* Landscape config */
+@media only screen and (orientation: landscape){
+    .card_container { /*Contiene galería e inspector */
+        height: 75vh;
+    }
+    .card_gallery {
+        height: 100%;
+        width: 80%;
+    }
+    .cardInGallery {
+        height: 22vh;
+    }
+    .card_inspector {
+        padding: 20px 10px;
+        width: 20%;
+        max-width: 30rem;
+        height: 100%;
+    }
+    .zoomedCard{
+        height: 80%;
+        object-fit: contain;
+    }
+}
+
+/* Portrair config */
+@media only screen and (orientation: portrait){
+    .card_container {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardInGallery {
+        width: 17vw;
+    }
+    .card_inspector {
+        margin-top: 5vh;
+        height: 50%;
+        width: 50%;
+    }
+    .zoomedCard {
+        width: 80%;
+        object-fit: contain;
+    }
+}
+
