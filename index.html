@@ -81,13 +81,6 @@
 </head>
 
 <body>
-  <!--
-  <div id="PRUEBASDEMIERDA">
-    <hr>
-    <input id="search_input_test" placeholder="gg_yy_jj_qq_pp" autocomplete="off" class="search_input_test" type="text">
-
-  </div>
-  -->
   
   <nav class="navMenu"> <!-- Navigation menu -->
 
@@ -99,10 +92,10 @@
       <button id="nextPageButton" class="nextPageButton" disabled>&gt;</button>
     </div>
 
-
     <div class="search_cont">
       <div class="search_field">
-        <input id="search_input" placeholder="Find a card" autocomplete="off" class="search_input">
+        <!--<input id="search_input" placeholder="Find a card" autocomplete="off" class="search_input">-->
+        <textarea id="search_input" placeholder="Find a card" autocomplete="off" class="search_input"></textarea>
       </div>
 
       <div class="suggestions"> <!-- Será llenado de sugerencias de búsqueda.-->
@@ -129,8 +122,8 @@
     <div id="card_inspector" class="card_inspector" data-tilt data-tilt-reverse="true" data-tilt-scale="1.05">
 
       <div id="inspectorTitle" class="inspectorTitle">CARD INSPECTOR</div> <!-- Inspector Title -->
-      <div class="inspectorPicture_cont"><img id="inspectorPicture" class="inspectorPicture" data-tilt-reverse="true"
-          data-tilt-scale="1.2"></div> <!-- Inspector Image-->
+      <div class="inspectorPicture_cont"><img id="inspectorPicture" class="inspectorPicture" data-tilt data-tilt-reverse="true"
+          data-tilt-scale="1.2" src="/BCS_resources/Other_pictures/empty.png"></div> <!-- Inspector Image-->
       <div class="inspectorName" id="inspectorName"></div> <!-- Inspector Name-->
       <div class="rarity" id="inspectorRarity"></div> <!-- Inspector Rarity-->
       <div class="inspectorEffect" id="inspectorEffect">You can inspect a card by clicking into its image.</div>

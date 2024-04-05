@@ -227,7 +227,7 @@ function inspectCard(index) { // Loads the card with specific index to the inspe
         inspectorEffect.innerHTML = "";
         inspectorNumber.innerText = "";
         inspectorCost.innerText = "";
-        inspectorPicture.src = "resources/Joker_pictures/No_Joker.webp";
+
     }
 
     // Stores the selected card object
@@ -405,6 +405,7 @@ nextPageButton.addEventListener("click", function () { // Next page button behav
 previousPageButton.addEventListener("click", function () { //Previous page button behavior
     changeGalleryPage("prev");
 });
+
 inputBox.addEventListener("keypress", function (event) { // Allows launching the search card by pressing "enter" in the input field.
     if (event.key === "Enter") {
         // Cancel the default action, if needed
@@ -414,6 +415,7 @@ inputBox.addEventListener("keypress", function (event) { // Allows launching the
         find_card();
     }
 });
+
 document.getElementById("showInfoButton").addEventListener("click", function () { // Zoom Info behavior
     open_zoom("info");
 });
