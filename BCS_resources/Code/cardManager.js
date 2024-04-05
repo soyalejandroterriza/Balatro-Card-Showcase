@@ -307,11 +307,6 @@ function close_zoom() { //Hides the zoom menu
     infoZoom.style.display = "none";
     cardZoom.style.display = "none";
 }
-function set_zoom_card_size() {
-    const cardImageSize_Temp = screen.height * 0.7;
-    cardZoomImg.style.height = cardImageSize_Temp.toString() + "px";
-    cardZoomImg.style.width = (cardImageSize_Temp * 0.75).toString() + "px";
-}
 
 /////////////////////// Search suggestion functions ///////////////////////
 function displaySuggestions(target) { // Fill the suggestion field with the "target" content.
@@ -353,7 +348,6 @@ const inspectorEffect = document.getElementById("inspectorEffect");
 const inspectorNumber = document.getElementById("inspectorNumber");
 const inspectorCost = document.getElementById("inspectorCost");
 const inspectorPicture = document.getElementById("inspectorPicture");
-const cardZoomImg = document.getElementById("cardZoomImg");
 
 // Zoom references
 const cardZoom = document.getElementById("cardZoomImg");
@@ -394,9 +388,6 @@ checkButtons();
 
 // Make sure that the zoom menu appears closed at first
 close_zoom();
-
-// Sets the size of the zoom card depending on the screen size
-set_zoom_card_size();
 
 // Add event listeners.
 nextPageButton.addEventListener("click", function () { // Next page button behavior

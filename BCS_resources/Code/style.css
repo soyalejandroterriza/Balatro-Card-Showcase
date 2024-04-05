@@ -109,8 +109,10 @@ body {
     background-color: rgba(0,0,0,0.9);
 }
 .zoomedCard {
+    
     justify-content: center;
     align-items: center;
+    
 }
 .info {
     display: flex;
